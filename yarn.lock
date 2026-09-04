@@ -4485,6 +4485,7 @@ __metadata:
     "@trivago/prettier-plugin-sort-imports": "npm:~6.0.2"
     "@types/node": "npm:~18.19.130"
     "@types/react": "npm:~19.2.14"
+    "@x402/core": "npm:^2.24.0"
     abitype: "npm:1.2.4"
     bgipfs: "npm:~0.0.18"
     blo: "npm:~2.0.0"
@@ -7106,6 +7107,15 @@ __metadata:
     multiformats: "npm:^13.3.1"
     uint8arrays: "npm:^5.1.0"
   checksum: 10/9bf1b9b4e2e8535c69fbadbbbd23441b0ca09dd3330e1b8110d074520b9ac13741ab385b301241231286c52b2db4562d6c9e7a83b3418c5bd6e87c71e0981e05
+  languageName: node
+  linkType: hard
+
+"@x402/core@npm:^2.24.0":
+  version: 2.24.0
+  resolution: "@x402/core@npm:2.24.0"
+  dependencies:
+    zod: "npm:^3.24.2"
+  checksum: 10/ae52e68930277550f1c52e5109f7811cc2afe8efc01b4b38884822f1dcab4f06fe6844549a9545fdad0a3aacd9de292bb8e8dc4f9b2c3445095e50d8b0472cf3
   languageName: node
   linkType: hard
 
@@ -19072,7 +19082,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:^3.22.4, zod@npm:^3.23.8, zod@npm:^3.25.76":
+"zod@npm:^3.22.4, zod@npm:^3.23.8, zod@npm:^3.24.2, zod@npm:^3.25.76":
   version: 3.25.76
   resolution: "zod@npm:3.25.76"
   checksum: 10/f0c963ec40cd96858451d1690404d603d36507c1fc9682f2dae59ab38b578687d542708a7fdbf645f77926f78c9ed558f57c3d3aa226c285f798df0c4da16995
